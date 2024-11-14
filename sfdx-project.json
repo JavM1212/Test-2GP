@@ -9,8 +9,7 @@
       "versionDescription": "",
       "dependencies": [
         {
-            "package": "Rollup Helper",
-            "versionNumber": "20.9.0"
+            "package": "04t6f000000szOwAAI"
         }
       ]
     }
@@ -20,6 +19,7 @@
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "62.0",
   "packageAliases": {
-    "TestConvertFirstGenToSecondGen": "0Hobm0000000Bl3CAE"
+    "TestConvertFirstGenToSecondGen": "0Hobm0000000Bl3CAE",
+    "Rollup Helper": "04t6f000000szOwAAI"
   }
 }
