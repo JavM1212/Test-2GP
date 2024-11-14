@@ -2,11 +2,24 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "TestConvertFirstGenToSecondGen",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": "",
+      "dependencies": [
+        {
+            "package": "Rollup Helper",
+            "versionNumber": "20.9.0"
+        }
+      ]
     }
   ],
   "name": "TestFirstGenToSecondGen",
-  "namespace": "",
+  "namespace": "firsttosecond",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "62.0"
+  "sourceApiVersion": "62.0",
+  "packageAliases": {
+    "TestConvertFirstGenToSecondGen": "0Hobm0000000Bl3CAE"
+  }
 }
