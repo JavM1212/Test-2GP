@@ -1,6 +1,6 @@
-@namespaceAccesible
+@namespaceAccessible
 public class TestSecondGenPackage {
-    @namespaceAccesible
+    @namespaceAccessible
 	public static void printCurrencyTestField() {
         List<Contact> con = [SELECT Id, rh2__Currency_Test__c FROM Contact WHERE rh2__Currency_Test__c != null LIMIT 1];
         
